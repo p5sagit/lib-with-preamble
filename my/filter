@@ -1,0 +1,2 @@
+print "use strict;\n#line 1\n";
+while (<STDIN>) { print }
