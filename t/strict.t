@@ -7,4 +7,4 @@ ok(
   'strict example dies'
 );
 
-like($@, qr{Global symbol "\$orz" requires explicit package name at \S+lib/with/preamble/example/strict.pm line 3}, 'Error has right name and line');
+like($@, qr{Global symbol "\$orz" requires explicit package name(?: \([^)]+\))? at \S+lib/with/preamble/example/strict.pm line 3}, 'Error has right name and line');
