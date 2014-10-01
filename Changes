@@ -1,5 +1,7 @@
 Release history for strictures
 
+  - fix to test for 5.21.4 (RT#99195, Father Chrysostomos)
+
 0.001000 - 2013-02-20
   - released on an unsuspecting world ... no, wait, they always suspect me
   - never mind
