@@ -8,6 +8,7 @@ WriteMakefile(
   NAME => 'lib-with-preamble',
   VERSION_FROM => 'lib/lib/with/preamble.pm',
   PM_FILTER => 'perl my/filter',
+  MIN_PERL_VERSION => '5.008001',
   PREREQ_PM => {
     'PerlIO::via::dynamic' => '0.02',
     'File::Spec' => '0',
