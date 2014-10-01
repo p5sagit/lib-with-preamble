@@ -5,7 +5,7 @@ use warnings FATAL => 'all';
 use File::Spec;
 use PerlIO::via::dynamic;
 
-our $VERSION = '0.001000'; # 0.1.0
+our $VERSION = '0.001001'; # 0.1.1
 
 sub require_with_preamble {
   my ($arrayref, $filename) = @_;
