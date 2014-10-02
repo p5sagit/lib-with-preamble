@@ -1,5 +1,7 @@
 Release history for strictures
 
+  - fix failing test on MSWin32 (path separators)
+
 0.001001 - 2014-10-01
   - fix to test for 5.21.4 (RT#99195, Father Chrysostomos)
 
