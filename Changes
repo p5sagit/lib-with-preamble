@@ -1,5 +1,6 @@
 Release history for strictures
 
+0.001002 - 2014-10-02
   - fix failing test on MSWin32 (path separators)
 
 0.001001 - 2014-10-01
