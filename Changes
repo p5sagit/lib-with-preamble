@@ -1,4 +1,4 @@
-Release history for strictures
+Release history for lib::with::preamble
 
 0.001002 - 2014-10-02
   - fix failing test on MSWin32 (path separators)
