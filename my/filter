@@ -1,2 +1,2 @@
-print "use strict;\n#line 1\n";
+print "use strict;\nuse warnings;\n#line 1\n";
 while (<STDIN>) { print }
