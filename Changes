@@ -1,5 +1,7 @@
 Release history for lib::with::preamble
 
+  - minor fixes for metadata and kwalitee metrics
+
 0.001002 - 2014-10-02
   - fix failing test on MSWin32 (path separators)
 
