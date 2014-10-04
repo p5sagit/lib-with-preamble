@@ -5,7 +5,7 @@ use ExtUtils::MakeMaker;
 (do 'maint/Makefile.PL.include' or die $@) unless -f 'META.yml';
 
 WriteMakefile(
-  NAME => 'lib-with-preamble',
+  NAME => 'lib::with::preamble',
   VERSION_FROM => 'lib/lib/with/preamble.pm',
   PM_FILTER => 'perl my/filter',
   MIN_PERL_VERSION => '5.008001',
